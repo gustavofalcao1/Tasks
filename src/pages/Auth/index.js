@@ -15,6 +15,7 @@ export default function Auth({ navigation }){
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [errorAuth, setErrorAuth] = useState('')
+  const [errorRecover, setErrorRecover] = useState('')
   const firebaseAuth=()=>{
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
@@ -26,6 +27,17 @@ export default function Auth({ navigation }){
       let errorCode = error.code;
       let errorMessage = error.message;
     })
+  }
+  const firebaseRecover=()=>{
+    firebase.auth().sendPasswordResetEmail(email)
+    .then(() => {
+      navigation.navigate('Recover', { id: user.uid })
+    })
+    .catch((error) => {
+      setErrorRecover(true)
+      var errorCode = error.code;
+      var errorMessage = error.message;
+    });
   }
 
   return (
@@ -68,6 +80,21 @@ export default function Auth({ navigation }){
 
       </View>
       }
+      {errorRecover === true
+      ?
+      <View style={styles.contentAlert}>
+        <Ionicons
+          name='alert-circle'
+          size={24}
+          color='#E31C25'
+        />
+        <Text style={styles.warningAlert}>Invalid Email</Text>
+      </View>
+      :
+      <View>
+
+      </View>
+      }
       {email === '' || password === ''
       ?
       <TouchableOpacity
@@ -84,6 +111,16 @@ export default function Auth({ navigation }){
         <Text style={styles.buttonAuthText}>Enter</Text>
       </TouchableOpacity>
       }
+      <Text style={styles.buttonGoRecover}>
+      Forgot your password?
+        <Text
+          style={styles.linkRecover}
+          onPress={firebaseRecover}
+        >
+          &nbsp;
+          Recover
+        </Text>
+      </Text>
       <Text style={styles.buttonGoRegister}>
         don't have a registration?
         <Text
@@ -91,7 +128,7 @@ export default function Auth({ navigation }){
           onPress={()=>navigation.navigate('Register')}
         >
           &nbsp;
-          Register now.
+          Register now
         </Text>
       </Text>
       <View style={{height: 100}}/>

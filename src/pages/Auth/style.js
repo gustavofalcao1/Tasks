@@ -72,6 +72,14 @@ const styles = StyleSheet.create({
   linkRegister:{
     color: '#00CC10',
     fontSize: 15
+  },
+  buttonGoRecover:{
+    marginTop: 20,
+    color: '#f5f5f5'
+  },
+  linkRecover:{
+    color: '#00CC10',
+    fontSize: 15
   }
 })
 

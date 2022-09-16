@@ -90,7 +90,7 @@ export default function Register({ navigation }){
           onPress={async ()=> await navigation.navigate('Auth')}
         >
           &nbsp;
-          Enter.
+          Enter
         </Text>
       </Text>
       <View style={{height: 100}}/>
