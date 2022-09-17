@@ -5,4 +5,6 @@
   - expo start
 
 ## Screenshots
-![Alt text](Screenshots/screen1.png?raw=true "Login")
+<p align="center">
+  ![Alt text](Screenshots/screen1.png?raw=true "Login")
+</p>
