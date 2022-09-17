@@ -6,5 +6,5 @@
 
 ## Screenshots
 <p align="center">
-  ![Alt text](Screenshots/screen1.png?raw=true "Login")
+  <img src="Screenshots/screen1.png" alt="Login")
 </p>
