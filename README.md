@@ -5,4 +5,4 @@
   - expo start
 
 ## Screenshots
-![Alt text](Scrennshots/screen1.jpg?raw=true "Login")
+![Alt text](Tasks/Screenshots/screen1.png?raw=true "Login")
