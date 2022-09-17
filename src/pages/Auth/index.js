@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   KeyboardAvoidingView
 } from 'react-native'
+import RNRestart from 'react-native-restart'
 
 import firebase from '../../config/firebase'
 import { Ionicons } from '@expo/vector-icons'
@@ -20,6 +21,7 @@ export default function Auth({ navigation }){
     firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
       let user = userCredential.user;
+      RNRestart.Restart();
       navigation.navigate('Home', { id: user.uid })
     })
     .catch((error) => {
@@ -49,7 +51,7 @@ export default function Auth({ navigation }){
       <TextInput
         numberOfLines={1}
         style={styles.input}
-        placeholder='Enter you user email'
+        placeholder='enter your email'
         placeholderTextColor='#a0a0a0'
         type='text'
         value={email}
@@ -58,7 +60,7 @@ export default function Auth({ navigation }){
       <TextInput
         numberOfLines={1}
         style={styles.input}
-        placeholder='Enter you user password'
+        placeholder='enter your password'
         placeholderTextColor='#a0a0a0'
         secureTextEntry={true}
         type='password'
