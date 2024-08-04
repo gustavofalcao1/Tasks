@@ -2,13 +2,14 @@
 * React-Native
 * Expo
 * Firebase
+* Yarn
 
 ## Exec
 ```
   yarn install
 ```
 ```
-  expo start
+  yarn start
 ```
 
 ## Features

@@ -1,7 +1,7 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Platform } from 'react-native';
 
 const styles = StyleSheet.create({
-  container:{
+  container: {
     flex: 1,
     backgroundColor: '#121214',
     alignItems: 'center',
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 48
   },
-  input:{
+  input: {
     width: 300,
     marginTop: 10,
     padding: 10,
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     shadowRadius: 1.41,
     elevation: 2
   },
-  buttonAuth:{
+  buttonAuth: {
     width: 200,
     height: 50,
     justifyContent: 'center',
@@ -51,36 +51,36 @@ const styles = StyleSheet.create({
     shadowRadius: 1.41,
     elevation: 2
   },
-  buttonAuthText:{
+  buttonAuthText: {
     color: '#f5f5f5'
   },
-  contentAlert:{
+  contentAlert: {
     marginTop: 20,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center'
   },
-  warningAlert:{
+  warningAlert: {
     paddingLeft: 10,
     color: '#f5f5f5',
     fontSize: 16,
   },
-  buttonGoRegister:{
+  buttonGoRegister: {
     marginTop: 20,
     color: '#f5f5f5'
   },
-  linkRegister:{
+  linkRegister: {
     color: '#00CC10',
     fontSize: 15
   },
-  buttonGoRecover:{
+  buttonGoRecover: {
     marginTop: 20,
     color: '#f5f5f5'
   },
-  linkRecover:{
+  linkRecover: {
     color: '#00CC10',
     fontSize: 15
   }
-})
+});
 
-export default styles
+export default styles;

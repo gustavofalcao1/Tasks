@@ -11,19 +11,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
   },
-  buttonArchivedTask:{
-    justifyContent: 'center',
-    paddingLeft: 15,
-    marginTop: -10,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.20,
-    shadowRadius: 1.41,
-    elevation: 2
-  },
   taskContent: {
     width: '94%',
     marginLeft: 'auto',
@@ -50,6 +37,9 @@ const styles = StyleSheet.create({
     color: '#a0a0a0'
   },
   buttonArchivedTask:{
+    justifyContent: 'center',
+    paddingLeft: 15,
+    marginTop: -10,
     left: -42,
     shadowColor: "#000",
     shadowOffset: {
