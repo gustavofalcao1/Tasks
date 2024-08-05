@@ -4,14 +4,6 @@
 * Firebase
 * Yarn
 
-## Exec
-```
-  yarn install
-```
-```
-  yarn start
-```
-
 ## Features
 - [x] Add Task
 - [x] Edit Task
@@ -23,16 +15,27 @@
 - [ ] Create Shared Tasks
 - [ ] Create Shared Notebook
 
+## Exec
+### Install
+```
+  yarn install
+```
+### Run
+```
+  yarn start
+```
+
+
 ## Screenshots
 <p align="center">
-  <img src="Screenshots/screen1.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen2.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen3.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen4.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen5.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen6.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen7.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen8.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen9.png" alt="Login") width="300"/>
-  <img src="Screenshots/screen10.png" alt="Login") width="300"/>
+  <img src="screenshots/screen1.png" alt="Splash") width="300"/>
+  <img src="screenshots/screen2.png" alt="Register") width="300"/>
+  <img src="screenshots/screen3.png" alt="Login") width="300"/>
+  <img src="screenshots/screen4.png" alt="Home") width="300"/>
+  <img src="screenshots/screen5.png" alt="New") width="300"/>
+  <img src="screenshots/screen6.png" alt="Edit") width="300"/>
+  <img src="screenshots/screen7.png" alt="Tasks") width="300"/>
+  <img src="screenshots/screen8.png" alt="Done") width="300"/>
+  <img src="screenshots/screen9.png" alt="Doned") width="300"/>
+  <img src="screenshots/screen10.png" alt="Archived") width="300"/>
 </p>
