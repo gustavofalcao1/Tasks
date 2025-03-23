@@ -1,41 +1,90 @@
-# Tasks App
-* React-Native
-* Expo
-* Firebase
-* Yarn
+# ✅ Tasks App
 
-## Features
-- [x] Add Task
-- [x] Edit Task
-- [x] Done Task
-- [x] Undone Task
-- [x] Archive Task
-- [x] Delete Task
-- [ ] Create Task Notebook
-- [ ] Create Shared Tasks
-- [ ] Create Shared Notebook
+A sleek and intuitive task management mobile app built with **React Native**, **Expo**, and **Firebase**, designed to simplify your daily productivity. Manage your tasks efficiently with features like task editing, archiving, and real-time updates.
 
-## Exec
-### Install
-```
-  yarn install
-```
-### Run
-```
-  yarn start
+---
+
+## 🚀 Features
+
+- ✅ **Create and Add Tasks**
+- ✅ **Edit Existing Tasks**
+- ✅ **Mark Tasks as Done/Undone**
+- ✅ **Archive Tasks**
+- ✅ **Delete Tasks**
+- 🚧 **Planned Features:**
+  - Task notebooks for better organization
+  - Shared tasks for collaboration
+  - Shared notebooks for team projects
+
+---
+
+## 🛠️ Tech Stack
+
+- **React Native** (via Expo)
+- **Firebase** (authentication, real-time database, storage)
+- **Yarn** for dependency management
+
+---
+
+## 📲 Installation & Usage
+
+### 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/gustavofalcao1/Tasks.git
+cd Tasks
+yarn install
 ```
 
+### ▶️ Running the App
 
-## Screenshots
-<p align="center">
-  <img src="screenshots/screen1.png" alt="Splash") width="300"/>
-  <img src="screenshots/screen2.png" alt="Register") width="300"/>
-  <img src="screenshots/screen3.png" alt="Login") width="300"/>
-  <img src="screenshots/screen4.png" alt="Home") width="300"/>
-  <img src="screenshots/screen5.png" alt="New") width="300"/>
-  <img src="screenshots/screen6.png" alt="Edit") width="300"/>
-  <img src="screenshots/screen7.png" alt="Tasks") width="300"/>
-  <img src="screenshots/screen8.png" alt="Done") width="300"/>
-  <img src="screenshots/screen9.png" alt="Doned") width="300"/>
-  <img src="screenshots/screen10.png" alt="Archived") width="300"/>
-</p>
+Start the development server:
+
+```bash
+yarn start
+```
+
+Use Expo client on Android or iOS devices to preview.
+
+---
+
+## 📸 Screenshots
+
+| Splash Screen | Register Screen | Login Screen | Home Screen | New Task |
+|---------------|-----------------|--------------|-------------|----------|
+| ![Splash](screenshots/screen1.png) | ![Register](screenshots/screen2.png) | ![Login](screenshots/screen3.png) | ![Home](screenshots/screen4.png) | ![New](screenshots/screen5.png) |
+
+| Edit Task | Tasks List | Mark Task Done | Completed Tasks | Archived Tasks |
+|-----------|------------|----------------|-----------------|----------------|
+| ![Edit](screenshots/screen6.png) | ![Tasks](screenshots/screen7.png) | ![Done](screenshots/screen8.png) | ![Completed](screenshots/screen9.png) | ![Archived](screenshots/screen10.png) |
+
+---
+
+## 🤝 Contributing
+
+We appreciate your contributions:
+
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new-feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Gustavo Falcão**  
+[GitHub @gustavofalcao1](https://github.com/gustavofalcao1)  
+[Project Repository](https://github.com/gustavofalcao1/Tasks)
+
+---
+
